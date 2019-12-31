@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* cài đặt font mặc định */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+img{
+    max-width: 100%;
+}
+
+header
+{
+    background-color: #222;
+    /* padding: top right bottom left; */
+    padding: 11px 0;
+
+}
+
+#search input{
+    margin-right: -5px;
+    padding-left: 12px;
+    height: 30px;
+    width: 277px;
+    border: none;
+
+    /* bo tròn góc cho thẻ */
+    border-radius: 5px 0 0 5px;
+
+}
+
+#search input::placeholder
+{
+    color: #222;
+}
+
+
+#search button{
+    height: 30px;
+    width: 78px;
+    border: none;
+    background-color: #EB1F27;
+    border-radius: 0 5px 5px 0;
+}
+
+#sup-cart span{
+    background-color: #EB1F27;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+
+    /* bo tròn thẻ khi có width = height */
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+
+}
+.mau-1{
+    background-color: #EB1F27;
+   
+}
+.text-menu
+{
+    display: none;
+}
+
+nav{
+    margin-bottom: 10px;
+}
+
+nav li{
+    border-right: 2px solid black;
+}
+
+
+nav li:hover {
+    background-color: turquoise;
+}
+
+
+.no-padding{
+    padding: 0px;
+}
+
+nav a{
+    padding: 14px !important;
+}
+
+#banner img{
+    margin-bottom: 10px;
+}

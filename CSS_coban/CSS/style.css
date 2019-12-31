@@ -1,0 +1,30 @@
+/* # chọn id
+            . chọn class
+         */
+         #li1{
+            color: blue;
+            font-size: 20px;
+        }
+        .mau_vang{
+            color: yellow;
+
+        }
+        .size{
+            font-size: 60px;
+        }
+        #p1{
+            /* chiều cao của thẻ */
+            height: 1350px;
+            /* chiều rộng nội dung thẻ */
+            width: 2800px;
+            /* tô màu nền */
+            background-color: aqua;
+            border: rgb(245, 235, 129);
+        }
+
+        .box1{
+            width: 1350px;
+            height: 2800px;
+            background-color: powderblue;
+            background-image: url("https://w.wallhaven.cc/full/13/wallhaven-13oq3v.jpg");
+        }
